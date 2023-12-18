@@ -4,6 +4,9 @@ Output unique job title names.
 Table: sf_public_salaries
 */
 
-select distinct jobtitle
-from sf_public_salaries
-where overtimepay = 0;
+select distinct 
+  jobtitle
+from 
+  sf_public_salaries
+where 
+  overtimepay = 0;
